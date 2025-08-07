@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
+import Banner from "./_Components/Banner";
 
 
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to the Rental Website</h1>
-      <Button>Get Started</Button>
+    <div className="container mx-auto px-4">
+      <Banner/>
     </div>
   );
 }
