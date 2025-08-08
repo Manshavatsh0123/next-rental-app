@@ -78,13 +78,19 @@ const Banner = () => {
         {/* Right Section */}
         <div className=" relative flex flex-col gap-4">
 
-          <div className="bg-gray-100/50 rounded-xl p-1 shadow-md w-42 absolute top-10 left-10">
-            <div className="w-40 bg-gradient-to-r from-primary to-blue-500 border-4 border-white shadow-lg rounded-xl p-4">
-              <h1 className="text-xl text-center text-white font-semibold tracking-wide">Super Sale$</h1>
-            </div>
-          </div>
+          <div className="absolute top-10 left-10 group">
+  <div className="bg-gray-100/50 rounded-xl p-1 shadow-md w-[168px] transition-transform duration-300 group-hover:scale-105">
+    <div className="w-40 bg-gradient-to-r from-primary to-blue-500 border-4 border-white shadow-lg rounded-xl p-4">
+      <h1 className="text-xl text-center text-white font-semibold tracking-wide">
+        Super Sale$
+      </h1>
+    </div>
+  </div>
+</div>
 
-          <div className="absolute right-0 top-40 w-64 space-y-4 bg-white/10 p-5 rounded-2xl backdrop-blur-lg border border-white/20">
+
+
+          <div className="absolute -right-2 top-40 w-64 space-y-4 bg-white/10 p-5 rounded-2xl backdrop-blur-lg border border-white/20">
             <div className="flex items-center gap-3 p-3 bg-white rounded-xl shadow-md border hover:shadow-xl transition duration-300">
               <Handshake size={28} className="bg-primary text-white p-2 rounded-md" />
               <h1 className="text-gray-800 text-sm font-semibold">Paid Partnership</h1>
