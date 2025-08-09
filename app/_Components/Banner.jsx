@@ -6,7 +6,7 @@ import { CarTaxiFront, FilePenLine, Handshake, HousePlus } from 'lucide-react';
 
 const Banner = () => {
   return (
-    <div className='container mx-auto px-4 py-12 mb-2'>
+    <div className='container mx-auto px-4 py-12 mb-11'>
       <div className="grid grid-cols-1 md:grid-cols-2 items-start gap-12">
 
         {/* Left Section */}
@@ -79,14 +79,14 @@ const Banner = () => {
         <div className=" relative flex flex-col gap-4">
 
           <div className="absolute top-10 left-10 group">
-  <div className="bg-gray-100/50 rounded-xl p-1 shadow-md w-[168px] transition-transform duration-300 group-hover:scale-105">
-    <div className="w-40 bg-gradient-to-r from-primary to-blue-500 border-4 border-white shadow-lg rounded-xl p-4">
-      <h1 className="text-xl text-center text-white font-semibold tracking-wide">
-        Super Sale$
-      </h1>
-    </div>
-  </div>
-</div>
+            <div className="bg-gray-100/50 rounded-xl p-1 shadow-md w-[168px] transition-transform duration-300 group-hover:scale-105">
+              <div className="w-40 bg-gradient-to-r from-primary to-blue-500 border-4 border-white shadow-lg rounded-xl p-4">
+                <h1 className="text-xl text-center text-white font-semibold tracking-wide">
+                  Super Sale$
+                </h1>
+              </div>
+            </div>
+          </div>
 
 
 
