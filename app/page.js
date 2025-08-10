@@ -1,14 +1,19 @@
 import Banner from "./_Components/Banner";
 import About from "./_Components/About";
-import About1 from "./_Components/About1";
+import Category from "./_Components/Category";
+import HomeSection from "./_Components/HomeSection";
 
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-4">
-      <Banner/>
-      <About/>
-      <About1/>
+    <div className="">
+      <Banner />
+      <About />
+      <HomeSection />
+      <div className="bg-gradient-to-b from-[#f0f3fc] to-white py-1">
+        <Category />
+      </div>
+
     </div>
   );
 }
