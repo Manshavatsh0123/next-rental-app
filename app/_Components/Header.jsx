@@ -16,7 +16,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-import Link from 'next/link';
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { MapPinHouse, UserSearch } from 'lucide-react'
 
@@ -58,9 +58,15 @@ export default function Header() {
           <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
             Home
           </Link>
-          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
-            About Us
-          </Link>
+
+
+<Link
+  href="/about"
+  className="text-sm leading-6 font-semibold tracking-wide text-gray-900 hover:text-primary"
+>
+  About Us
+</Link>
+
           <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
             Services
           </Link>

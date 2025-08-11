@@ -8,8 +8,8 @@ const Footer = () => {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
-                        <Link href="https://flowbite.com/" className="flex items-center">
-                            <Image src='/assets/Rental.jpg' alt="BlueNest Logo"
+                        <Link href="#" className="flex items-center">
+                            <Image src='/assets/Rental.jpg' alt="Ozalams Logo"
                                 width={60}
                                 height={60}
                                 className="h-[60px] w-auto"
@@ -17,7 +17,7 @@ const Footer = () => {
                             <span
                                 className="font-extrabold text-2xl bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent tracking-wide drop-shadow-lg"
                             >
-                                BlueNest
+                                Ozalams
                             </span>
 
 
@@ -81,7 +81,7 @@ const Footer = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            BlueNest™
+                            Ozalams™
                         </Link>
                         . All Rights Reserved.
                     </span>
