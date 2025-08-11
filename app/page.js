@@ -3,6 +3,8 @@ import About from "./_Components/About";
 import Category from "./_Components/Category";
 import HomeSection from "./_Components/HomeSection";
 import Services from "./_Components/Services";
+import Footer from "./_Components/Footer";
+
 
 
 export default function Home() {
@@ -17,6 +19,7 @@ export default function Home() {
         <Category />
       </div>
       <Services />
+      <Footer />
     </div>
   );
 }

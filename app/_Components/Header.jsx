@@ -40,7 +40,7 @@ export default function Header() {
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <img src="/assets/logo.png" alt="Logo" className="h-8 w-auto" />
+            <img src="/assets/Rental.jpg" alt="Logo" className="h-15 w-auto" />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -55,19 +55,19 @@ export default function Header() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
 
-          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900">
+          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
             Home
           </Link>
-          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900">
+          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
             About Us
           </Link>
-          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900">
+          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
             Services
           </Link>
-          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900">
+          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
             Facilities
           </Link>
-          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900">
+          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
             Blog
           </Link>
         </PopoverGroup>
