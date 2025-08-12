@@ -55,25 +55,22 @@ export default function Header() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
 
-          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
+          <Link href="/" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
             Home
           </Link>
 
 
-<Link
-  href="/about"
-  className="text-sm leading-6 font-semibold tracking-wide text-gray-900 hover:text-primary"
->
-  About Us
-</Link>
+          <Link
+            href="/about"
+            className="text-sm leading-6 font-semibold tracking-wide text-gray-900 hover:text-primary"
+          >
+            About Us
+          </Link>
 
-          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
+          <Link href="/service" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
             Services
           </Link>
-          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
-            Facilities
-          </Link>
-          <Link href="#" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
+          <Link href="/blog" className="text-sm/6 font-semibold tracking-wide text-gray-900 hover:text-primary">
             Blog
           </Link>
         </PopoverGroup>
