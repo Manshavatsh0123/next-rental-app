@@ -17,7 +17,7 @@ const About = () => {
                         className="object-cover rounded-t-full rounded-b-sm px-6 drop-shadow-lg"
                     />
 
-                    {/* Badge */}
+                    
                     <div className="absolute top-24 left-[65%] group-hover:scale-105 transition-transform duration-300">
                         <div className="bg-gray-100/50 rounded-xl p-1 shadow-md w-[168px]">
                             <div className="w-40 bg-gradient-to-r from-primary to-blue-500 border-4 border-white shadow-lg rounded-xl p-4">

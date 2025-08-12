@@ -60,15 +60,17 @@ const HomeSection = () => {
                         className="w-[380px] h-[480px] object-cover rounded-t-full rounded-b-sm px-8 drop-shadow-lg max-w-full"
                     />
 
-                    <div className="absolute top-20 -left-5 group-hover:scale-105 transition-transform duration-300">
-                        <div className="bg-gray-100/50 rounded-xl p-1 shadow-md w-[130px]">
-                            <div className="w-32 bg-gradient-to-r from-primary to-blue-500 border-4 border-white shadow-lg rounded-xl p-2">
-                                <h1 className="text-base text-center text-white font-semibold tracking-wide">
+                    <div className="absolute top-20 left-0 group-hover:scale-105 transition-transform duration-300">
+                        <div className="bg-gray-100/50 rounded-xl p-1 shadow-md w-[168px]">
+                            <div className="w-40 bg-gradient-to-r from-primary to-blue-500 border-4 border-white shadow-lg rounded-xl p-4">
+                                <h1 className="text-xl text-center text-white font-semibold tracking-wide">
                                     Super Sale$
                                 </h1>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
 
             </div>
