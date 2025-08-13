@@ -4,7 +4,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className="container mt-16 px-4 mb-16">
+        <div className="container mx-auto mt-16 px-4 mb-16">
             <div className="grid md:grid-cols-2 gap-12 items-center">
 
                 {/* Left Section */}
